@@ -2,7 +2,7 @@
 const bodyparser = require("body-parser");
 
 const app = express();
-var items = ["one","two",];
+var items = ["list",];
 app.set('view engine', 'ejs');
 app.use(bodyparser.urlencoded({extended:true}));
 app.use(express.static("public"));
